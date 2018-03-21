@@ -4,14 +4,11 @@ class Team
   def initialize(name, motto)
     @name = name
     @motto = motto
-    @heros = []
+    @heroes = []
   end
 
   def import_heroes(heroes)
-    
-    puts "\n\n\n\n"
-    # heroes.each{|h| @heroes << h}
-    heroes.each{|h| puts h.name}
+    heroes.each{|h| @heroes << h}
   end
 
 end
