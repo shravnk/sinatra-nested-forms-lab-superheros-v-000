@@ -8,9 +8,10 @@ class Team
   end
 
   def import_heroes(heroes)
-    puts heroes[0].name
+    
     puts "\n\n\n\n"
-    heroes.each{|h| @heroes << h}
+    # heroes.each{|h| @heroes << h}
+    heroes.each{|h| puts h.name}
   end
 
 end
