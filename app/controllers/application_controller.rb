@@ -15,7 +15,7 @@ class App < Sinatra::Base
       end
       @team.import_heroes(Hero.all)
 
-      erb :teamssdsdasd
+      erb :super_hero
     end
 
 end
