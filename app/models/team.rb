@@ -1,4 +1,3 @@
-require 'pry'
 class Team
   attr_accessor :name, :motto, :heroes
 
@@ -9,7 +8,7 @@ class Team
   end
 
   def import_heroes(heroes)
-    binding.pry
+    puts heroes[0]
     heroes.each{|h| @heroes << h}
   end
 
