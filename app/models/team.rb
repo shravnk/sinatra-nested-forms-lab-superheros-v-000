@@ -9,6 +9,7 @@ class Team
 
   def import_heroes(heroes)
     puts heroes[0]
+    puts "AAAAAAAAAAAAAAA"
     heroes.each{|h| @heroes << h}
   end
 
