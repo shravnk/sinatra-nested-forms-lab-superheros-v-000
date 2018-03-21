@@ -7,7 +7,7 @@ class Team
     @heros = []
   end
 
-  def self.import_heroes(heroes)
+  def import_heroes(heroes)
     heroes.each{|h| @heroes << h}
   end
 
