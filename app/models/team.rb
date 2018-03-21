@@ -6,5 +6,4 @@ class Team
     @motto = motto
   end
 
-  
 end
